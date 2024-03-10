@@ -25,10 +25,14 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    height: 1000vh;
+    height: 150vh;
     color: #2e363e;
 }
 
 .main-screen {
     padding: 0px var(--horizontal-space);
+}
+
+html {
+    background-color: var(--dark-mode-color);
 }

@@ -1,5 +1,5 @@
 #chat-screen {
-    background-color: #abc1d1;
+    background-color: var(--dark-mode-color);
     height: 500vh;
 }
 
@@ -8,8 +8,9 @@
     top: 0;
     position: fixed;
     width: 100%;
-    background-color: #abc1d1;
+    background-color: var(--dark-mode-color);
     box-sizing: border-box;
+    color: white;
 }
 
 #chat-screen .status-bar {
@@ -73,6 +74,7 @@
     display: flex;
     margin-bottom: 25px;
     animation: chatMove1 0.8s ease-in-out;
+    color: white;
 }
 
 .message-row img {
@@ -94,12 +96,16 @@
 }
 
 .message__bubble {
-    background-color: white;
+    background-color: var(--dark-mode-sub-background);
     padding: 13px;
     font-size: 18px;
     border-radius: 15px;
     border-top-left-radius: 0px;
     margin-right: 5px;
+}
+
+.message__info span:nth-child(2) {
+    color: var(--dark-mode-icon);
 }
 
 .message__time,
@@ -130,12 +136,13 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: white;
+    background-color: var(--dark-mode-sub-background);
     display: flex;
     justify-content: space-between;
     padding: 5px 25px;
     box-sizing: border-box;
     align-items: center;
+    color: var(--dark-mode-icon);
     transition: transform all 0.3s ease-in-out;
 }
 
@@ -155,6 +162,7 @@
 .reply input {
     padding: 14px;
     width: 100%;
+    background-color: var(--dark-mode-sub-background);
     border: var(--main-border);
     border-radius: 25px;
     box-sizing: border-box;

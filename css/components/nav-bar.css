@@ -2,10 +2,13 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f9f9fa;
+    background-color: var(--dark-mode-color);
     padding: 20px 50px;
     box-sizing: border-box;
     border-top: 1px solid rgba(131, 131, 131, 0.3);
+    z-index: 99;
+    bottom: 0;
+    color: var(--dark-mode-icon);
 }
 
 .nav__list {
@@ -15,7 +18,6 @@
 
 .nav__link {
     position: relative;
-    color: #2e363e;
 }
 
 @keyframes notificationAnimation {

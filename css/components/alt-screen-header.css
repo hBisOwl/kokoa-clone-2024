@@ -4,10 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--dark-mode-icon);
 }
 
 .alt-header__column {
     width: 33%;
+}
+
+.my_message {
+    color: black;
 }
 
 .alt-header__title {

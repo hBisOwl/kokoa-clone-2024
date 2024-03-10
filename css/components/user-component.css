@@ -3,10 +3,11 @@
 }
 
 
-.user-component, 
+.user-component,
 .user-component__column:first-child {
     display: flex;
     align-items: center;
+    color: var(--dark-mode-icon);
 }
 
 .user-component__avatar {
@@ -19,12 +20,13 @@
 .user-component__title {
     font-weight: 600;
     font-size: 22px;
+    color: white;
 }
 
 .user-component__subtitle {
     margin-top: 8px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.5)
+    color: var(--dark-mode-icon);
 }
 
 .user-component__avatar--xl {
@@ -53,6 +55,7 @@
 .user-component__time {
     margin-bottom: 10px;
     display: block;
+    color: var(--dark-mode-sub-background);
 }
 
 

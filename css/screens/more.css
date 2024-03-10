@@ -7,6 +7,7 @@
     margin-top: 50px;
     border-top: var(--main-border);
     padding-top: 40px;
+    color: var(--dark-mode-icon);
 }
 
 .more-suggestions__title {
@@ -36,4 +37,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.more-suggestions__icon-text {
+    margin-top: -10px;
+    text-align: center;
 }
